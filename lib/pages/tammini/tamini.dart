@@ -14,7 +14,7 @@ class Tamini extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 247, 247, 247),
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text("Tammini"),
         centerTitle: true,
@@ -30,9 +30,8 @@ class Tamini extends StatelessWidget {
             child: Text(
               "Location system developed in flutter development\nhere some screenshot by using GetX",
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontWeight: FontWeight.w500,
-              ),
+              style:
+                  TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
             ),
           ),
           Expanded(

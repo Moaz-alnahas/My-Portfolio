@@ -18,7 +18,7 @@ class ContactSection extends StatelessWidget {
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
-                color: Colors.teal[800],
+                color: Colors.white,
               ),
             ),
           ),
@@ -100,7 +100,7 @@ class ContactCard extends StatelessWidget {
           Text(
             subtitle,
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 14, color: Colors.black87),
+            style: TextStyle(fontSize: 14, color: Colors.white),
           ),
         ],
       ),

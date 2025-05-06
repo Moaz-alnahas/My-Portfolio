@@ -25,7 +25,7 @@ class MrCorner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 247, 247, 247),
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text("Mr. Corner"),
         centerTitle: true,
@@ -43,6 +43,7 @@ class MrCorner extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.w500,
+                color: Colors.white,
               ),
             ),
           ),
